@@ -1,19 +1,20 @@
-## alx-interview
+## N Queens
 
-## DIRECTORIES :file_folder:
-- [0x00-pascal_triangle](0x00-pascal_triangle)
-- [0x01-lockboxes](0x01-lockboxes)
-- [0x02-minimum_operations](0x02-minimum_operations)
-- [0x03-log_parsing](0x03-log_parsing)
-- [0x04-utf8_validation](0x04-utf8_validation)
-- [0x05-nqueens](0x05-nqueens)
-- [0x06-starwars_api](0x06-starwars_api)
-- [0x07-rotate_2d_matrix](0x07-rotate_2d_matrix)
-- [0x08-making_change](0x08-making_change)
-- [0x09-island_perimeter](0x09-island_perimeter)
-- [0x0A-primegame](0x0A-primegame)
+- The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 
----
-<div align="center">
-  <img src="https://lh3.googleusercontent.com/vH1HTHhq7BIEuhIDuEc2Wrc2LgZigsJEWDR56ALuDFRZv9-jqCgHNHuBHIB-fLrrbwp7tJ8b7qeIJo0VtHUh=s0" alt="ALX logo">
-</div>
+## Tests :heavy_check_mark:
+
+[0-nqueens.py](0-nqueens.py)
+
+- The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+
+- Usage: nqueens N
+- If the user called the program with the wrong number of arguments, print Usage: nqueens `N`, followed by a new line, and exit with the status `1`
+- where `N` must be an integer greater or equal to `4`
+- If `N` is not an integer, print `N` must be a number, followed by a new line, and exit with the status `1`
+- If `N` is smaller than `4`, print `N` must be at least `4`, followed by a new line, and exit with the status `1`
+- The program should print every possible solution to the problem
+- One solution per line
+- Format: see example
+- You don’t have to print the solutions in a specific order
+- You are only allowed to import the `sys` module
